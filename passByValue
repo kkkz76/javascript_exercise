@@ -1,0 +1,7 @@
+const changeValue = function(a){
+    a[0] =100;
+}
+const arr = [10,11,12]
+console.log(arr);
+changeValue(arr);
+console.log(arr);
