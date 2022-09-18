@@ -4,8 +4,8 @@ function logFuncName(a){
 
 }
 
-const greeting = function(){
+const greet = function(){
     console.log('hello');
 }
 
-logFuncName(greeting)
+logFuncName(greet)
