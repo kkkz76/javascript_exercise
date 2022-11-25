@@ -2,7 +2,7 @@
 //   .then(response => response.json())
 //   .then(json => console.log(json))
 
-const url= "https://api.github.com/search/users?q=kkkz";
+// const url= "https://api.github.com/search/users?q=kkkz";
 
 // const fetch_result = fetch(url);
 
@@ -10,10 +10,10 @@ const url= "https://api.github.com/search/users?q=kkkz";
 
 
 // async_await
-const fetchData =async(url) => {
-    const res = await fetch(url);
-    const data =await res.json();
-    console.log(data);
-}
+// const fetchData =async(url) => {
+//     const res = await fetch(url);
+//     const data =await res.json();
+//     console.log(data);
+// }
 
-fetchData(url);
+// fetchData(url);
