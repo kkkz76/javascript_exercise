@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
+import NumberList from './NumberList';
 
+const number1 = [1,2,3,4,5,6,7]; 
 export default class Clock extends Component {
+  
 
   constructor(props) {
     super(props);
@@ -21,11 +24,16 @@ export default class Clock extends Component {
       date: new Date()
     });
   }
+
+  
   render() {
+   
     return (
       <div>
         <h1>Clock</h1>
         <h2>It is {this.state.date.toLocaleTimeString()}</h2>
+
+        <NumberList numbers = {number1}/>
       </div>
    
 
