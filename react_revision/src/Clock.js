@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Loginsystem from './Loginsystem';
 import NumberList from './NumberList';
 
 const number1 = [1,2,3,4,5,6,7]; 
@@ -34,6 +35,7 @@ export default class Clock extends Component {
         <h2>It is {this.state.date.toLocaleTimeString()}</h2>
 
         <NumberList numbers = {number1}/>
+        <Loginsystem/>
       </div>
    
 
