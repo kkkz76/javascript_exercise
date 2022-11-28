@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Form2 from './Form2'
 export default function Form() {
 
    function handleSubmit(){
@@ -10,6 +10,7 @@ export default function Form() {
         <form onSubmit={handleSubmit}>
             <button type='submit'>Submit</button>
         </form>
+        <Form2/>
     </div>
   )
 }
